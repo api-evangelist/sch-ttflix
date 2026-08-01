@@ -1,9 +1,30 @@
 aid: sch-ttflix
-name: SchÃ Â¼ttflix
-description: 'SchÃ Â¼ttflix is a company surfaced as a portfolio company of hv-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Schüttflix
+description: >-
+  Schüttflix is a Gütersloh, Germany based digital logistics platform for the
+  construction industry, describing itself as the first digital logistics hub to
+  connect construction companies, building-material suppliers, disposal companies
+  and carriers. The marketplace digitizes the full workflow from ordering bulk
+  materials (sand, gravel, crushed stone) through transport dispatch to the
+  delivery note, and adds construction-waste disposal and circular-economy
+  recycling services. Schüttflix operates as a neutral marketplace ("we don't
+  compete, we connect") spanning 4,000+ suppliers and disposers, 6,800+ partner
+  carriers and 33,000+ vehicles, delivered primarily through native iOS and
+  Android apps rather than a public API. It is a portfolio company of HV Capital,
+  added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/sch-ttflix/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.schuettflix.com/f/145234/1333x750/7ec678bf7a/lkw_abgekippt.jpg/m/1200x627/smart/filters:quality(80)/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +33,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplace
+- Construction
+- Logistics
+- Building Materials
+- Circular Economy
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sch-ttflix-domain-security.yml
+- type: Website
+  url: https://www.schuettflix.com/
+- type: GitHubOrganization
+  url: https://github.com/schuettflix
+- type: PrivacyPolicy
+  url: https://www.schuettflix.com/global/en/legal/privacy-policy/
+- type: TermsOfService
+  url: https://www.schuettflix.com/global/en/legal/imprint/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
